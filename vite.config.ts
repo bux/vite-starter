@@ -24,7 +24,7 @@ export default defineConfig({
 
         // https://github.com/hannoeru/vite-plugin-pages
         Pages({
-            extensions: ["vue", "md"],
+            extensions: ["vue"],
         }),
 
         // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
@@ -32,11 +32,7 @@ export default defineConfig({
 
         // https://github.com/antfu/vite-plugin-components
         ViteComponents({
-            // allow auto load markdown components under `./src/components/`
-            extensions: ["vue", "md"],
-
-            // allow auto import and register components used in markdown
-            customLoaderMatcher: (id) => id.endsWith(".md"),
+            extensions: ["vue"],
 
             // auto import icons
             customComponentResolvers: [
