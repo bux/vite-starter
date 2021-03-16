@@ -4067,10 +4067,10 @@ vite-plugin-icons@^0.3.2:
     "@iconify/json-tools" "^1.0.10"
     vue-template-es2015-compiler "^1.9.1"
 
-vite-plugin-pages@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.7.0.tgz#fec1f2e07fa524bd9e06ae5198c446e514c2892f"
-  integrity sha512-nClkzBs+XPIqvlQuqqvukn/5igNkJ8i17/5aP6L6mfebhmnyngpcmSXrzuwnbEgP8VWq27L6+gLFniKWCRBrbg==
+vite-plugin-pages@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.7.1.tgz#d36bb87270403b18516fe36ff1184fdd2ba1f6b4"
+  integrity sha512-Ib5iru9W145spN2qM+5rS8ixrFVcMf1HQ3KdvLQWqp1NF5cYdMlsCeCcF+qSgZf/sHk15xqXO31ubdee3N1aMA==
   dependencies:
     "@vue/compiler-sfc" "^3.0.7"
     chalk "^4.1.0"
@@ -4080,8 +4080,8 @@ vite-plugin-pages@^0.7.0:
     fast-glob "^3.2.5"
     glob-to-regexp "^0.4.1"
     json5 "^2.2.0"
-    vue-router "^4.0.4"
-    yaml "^2.0.0-3"
+    vue-router "^4.0.5"
+    yaml "^2.0.0-4"
 
 vite-plugin-pwa@^0.5.6:
   version "0.5.6"
@@ -4163,7 +4163,7 @@ vue-loader@^16.1.2:
     hash-sum "^2.0.0"
     loader-utils "^2.0.0"
 
-vue-router@^4.0.3, vue-router@^4.0.4:
+vue-router@^4.0.3, vue-router@^4.0.4, vue-router@^4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.5.tgz#dd0a4134bc950c37aef64b973e9ee1008428d8fa"
   integrity sha512-AQq+pllb6FCc7rS6vh4PPcce3XA1jgK3hKNkQ4hXHwoVN7jOeAOMKCnX7XAX3etV9rmN7iNW8iIwgPk95ckBjw==
@@ -4514,7 +4514,7 @@ yaml@^1.10.0:
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
-yaml@^2.0.0-3:
+yaml@^2.0.0-4:
   version "2.0.0-4"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.0.0-4.tgz#0b8089fecd1843d1a8eb8d0aff1470c471653e15"
   integrity sha512-MoQoNhTFI400tkaeod+X0Vety1KD2L9dUa6pa1CVcyfcATjC/iDxoMLvqZ6U3D8c5KzxBrU2HnJH+PfaXOqI7w==
