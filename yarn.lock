@@ -3319,10 +3319,10 @@ pretty-hrtime@^1.0.3:
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
-prism-theme-vars@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/prism-theme-vars/-/prism-theme-vars-0.2.0.tgz#1bcd81f7d2e78551ff991035c1ef6bd8eee00637"
-  integrity sha512-3hsFwPB8UiMzy+o0hVgS85zZ7KNvwbBYydeOAo09Qyu3F5vYjrteorCAqIn/2oipcSL9UzizWItdNEiPaZK9KA==
+prism-theme-vars@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/prism-theme-vars/-/prism-theme-vars-0.2.2.tgz#a4c8dd0bfdb76c9b50a6ad8cd99a9ebe7a921a64"
+  integrity sha512-EL9ifuU/F8tEldoCa2sspiiLWysCL54xDbf2gN/ubwdtbuJROqOGopG5kSwunapwaioT+jLUQ/Ky+7jnv62xJA==
 
 progress@^2.0.0:
   version "2.0.3"
