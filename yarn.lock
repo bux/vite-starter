@@ -4068,10 +4068,10 @@ vite-plugin-icons@^0.3.2:
     "@iconify/json-tools" "^1.0.10"
     vue-template-es2015-compiler "^1.9.1"
 
-vite-plugin-pages@^0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.7.1.tgz#d36bb87270403b18516fe36ff1184fdd2ba1f6b4"
-  integrity sha512-Ib5iru9W145spN2qM+5rS8ixrFVcMf1HQ3KdvLQWqp1NF5cYdMlsCeCcF+qSgZf/sHk15xqXO31ubdee3N1aMA==
+vite-plugin-pages@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.7.2.tgz#81021d3b3ee9d7ee7338504cba508062fe14d16d"
+  integrity sha512-I3e3o+j2edGuUVocnizBxsKTBmCIKiK3sgqo8gfNJ5BHN7JjoRcfTk9wP3pavGJ/zczUbP5ULnXkWfgsJfw/aQ==
   dependencies:
     "@vue/compiler-sfc" "^3.0.7"
     chalk "^4.1.0"
