@@ -901,10 +901,10 @@
   resolved "https://registry.yarnpkg.com/@iconify/json-tools/-/json-tools-1.0.10.tgz#d9a7050dbbe8bb29d684d4b3f9446ed2d0bea3cc"
   integrity sha512-LFelJDOLZ6JHlmlAkgrvmcu4hpNPB91KYcr4f60D/exzU1eNOb4/KCVHIydGHIQFaOacIOD+Xy+B7P1z812cZg==
 
-"@iconify/json@^1.1.318":
-  version "1.1.318"
-  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.318.tgz#7d4e56de65dd0c7c6381a94dde1d574efea308ff"
-  integrity sha512-t66mtNPASeG/MQm3CWIJSr9jy8nXWNVs1L3auWc41xHqS114/dGkSlgu1LkMPUgBdyIB5AD4bjZrl50QuEf44Q==
+"@iconify/json@^1.1.320":
+  version "1.1.320"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.320.tgz#2f3685f8f3394bc1e6c734621a62551e85cad63e"
+  integrity sha512-cQpdMwjnGsKHCkabowCQ01figNBSwZ3UQxRLDD9gVlEpLuccpE2aWmRYPhbp7ofvZEyhffFn/zX9tPeoCAZnNQ==
 
 "@intlify/cli@^0.2.0":
   version "0.2.0"
@@ -967,10 +967,10 @@
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.0.0.tgz#d85b3b5f9033f377c5cf2202cf2459aa49948f36"
   integrity sha512-0r4v7dnY8g/Jfx2swUWy2GyfH/WvIpWvkU4OIupvxDTWiE8RhcpbOCVvqpVh/xGi0proHQ/r2Dhc0QSItUsfDQ==
 
-"@intlify/vite-plugin-vue-i18n@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-2.0.3.tgz#c409c9614d3a0438fa07be5606e16aa9709656a8"
-  integrity sha512-n+G/5eenBZAxaFkHWeKcz2vTU6W0ZToyxw81tX2KpzHpeEvVdp67FZADznR+kC1YSTmheNBXvsN7tIxi3tsiUA==
+"@intlify/vite-plugin-vue-i18n@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-2.0.4.tgz#364134a63db3a4d6a50cf53850a824e63419fad1"
+  integrity sha512-Wumxwenjoo+Lors1q6pxovngLfjba9b5JM0FKWbgQxroBP0yJpdn9GNrs0+WZp+hHqqUAtYvTfOPCovymySFxw==
   dependencies:
     "@intlify/cli" "^0.2.0"
     "@intlify/shared" "^9.0.0"
@@ -3168,10 +3168,10 @@ picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1, picomatch@^2.2.2:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
 
-pnpm@^5.18.7:
-  version "5.18.7"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-5.18.7.tgz#931924ab80f9dbc74fc942bd375cde2eb3928694"
-  integrity sha512-7LSLQSeskkDtzAuq8DxEcVNWlqFd0ppWPT6Z4+TiS8SjxGCRSpnCeDVzwliAPd0hedl6HuUiSnDPgmg/kHUVXw==
+pnpm@^5.18.8:
+  version "5.18.8"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-5.18.8.tgz#001397151984312b8eba99df29f5349144a79b3a"
+  integrity sha512-MO0XZoJfZFn6KjhcDpS03P9MeKx3xzgoXJcIcTjJ29/pKeS1O5x/SeLjzsCsAbkPLrv6JdY5uotIz7LRKEe88w==
 
 postcss-functions@^3:
   version "3.0.0"
