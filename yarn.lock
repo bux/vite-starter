@@ -896,10 +896,10 @@
   resolved "https://registry.yarnpkg.com/@iconify/json-tools/-/json-tools-1.0.10.tgz#d9a7050dbbe8bb29d684d4b3f9446ed2d0bea3cc"
   integrity sha512-LFelJDOLZ6JHlmlAkgrvmcu4hpNPB91KYcr4f60D/exzU1eNOb4/KCVHIydGHIQFaOacIOD+Xy+B7P1z812cZg==
 
-"@iconify/json@^1.1.331":
-  version "1.1.331"
-  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.331.tgz#5bd10c8764e24a973474992a35b56ea7e32a2115"
-  integrity sha512-6YK6fJccOZYa01o6SV3WHNFWtfdP7+q9urn7s4OIFx0a6FTqole0BHGJ87ZsLp03N96TcGEY2nQGpv3MdezYKg==
+"@iconify/json@^1.1.334":
+  version "1.1.334"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.334.tgz#b8a5e09dfcd2396238cd55af9785bdc26889f9ae"
+  integrity sha512-+tuPagrHexJqFlgCuAQ50soLgolD2JLUk/44Pqquft1x05lojl8whZ9bJt/XiC3A1575MMUAeXWV704ZvxtmLA==
 
 "@intlify/cli@^0.4.0":
   version "0.4.0"
