@@ -4,8 +4,9 @@ import { UserModule } from "~/types"
 // import i18n resources
 // https://vitejs.dev/guide/features.html#glob-import
 const messages = Object.fromEntries(
-    Object.entries(import.meta.globEager("../../locales/*.json")).map(([key, value]) => {
-        return [key.slice(14, -5), value.default]
+    Object.entries(import.meta.globEager("../../locales/*.y(a)?ml")).map(([key, value]) => {
+        const yaml = key.endsWith(".yaml")
+        return [key.slice(14, yaml ? -5 : -4), value.default]
     })
 )
 

@@ -4,7 +4,7 @@
             <carbon-pedestrian class="inline-block" />
         </p>
         <p>
-            {{ t("intro.hi", { name: props.name }) }}
+            {{ t("intro.hi", { name: name }) }}
         </p>
         <p class="text-sm opacity-50">
             <em>{{ t("intro.dynamic-route") }}</em>
@@ -21,12 +21,12 @@
 <script lang="ts">
 import { useRouter } from "vue-router"
 import { useI18n } from "vue-i18n"
-import { defineComponent } from "vue"
+import { defineComponent, PropType } from "vue"
 
 export default defineComponent({
     props: {
         name: {
-            type: String,
+            type: String as PropType<string>,
             required: true,
         },
     },

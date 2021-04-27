@@ -1,0 +1,13 @@
+button:
+  about: Über
+  back: Zurück
+  go: Los
+  home: Home
+  toggle_dark: Dark Mode aktivieren
+  toggle_langs: Sprache wechseln
+intro:
+  desc: Opinionated Vite Starter Template
+  dynamic-route: Demo einer dynamischen Route
+  hi: Hallo {name}!
+  whats-your-name: Wie heisst du?
+not-found: Nicht gefunden
