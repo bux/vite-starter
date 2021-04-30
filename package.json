@@ -6,7 +6,7 @@
         "serve": "vite preview"
     },
     "dependencies": {
-        "@vueuse/core": "^4.9.0",
+        "@vueuse/core": "^4.9.1",
         "@vueuse/head": "^0.5.1",
         "nprogress": "^0.2.0",
         "prism-theme-vars": "^0.2.2",
