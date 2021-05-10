@@ -42,7 +42,7 @@
         "vite-plugin-pages": "^0.9.7",
         "vite-plugin-pwa": "^0.7.2",
         "vite-plugin-vue-layouts": "^0.2.2",
-        "vite-ssg": "^0.9.2",
+        "vite-ssg": "^0.10.0",
         "vue-eslint-parser": "^7.6.0",
         "vue-loader": "^15.9.6"
     }
