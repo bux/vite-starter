@@ -1338,25 +1338,25 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.0.11.tgz#20d22dd0da7d358bb21c17f9bde8628152642c77"
   integrity sha512-b+zB8A2so8eCE0JsxjL24J7vdGl8rzPQ09hZNhystm+KqSbKcAej1A+Hbva1rCMmTTqA+hFnUSDc5kouEo0JzA==
 
-"@vueuse/core@^4.9.0":
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-4.9.0.tgz#a0d048654bdf26b9838d5a6b9b33c5182130902d"
-  integrity sha512-vkGB6T9IgsdvbEyEVLaNu+JlMXonqx/mUX5El1u252ZTOa9khsVIAWWEMfxFyXz245V2hJi+O+TZv6rwyHbOLg==
+"@vueuse/core@^4.9.2":
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/core/-/core-4.9.2.tgz#8e5ac3232bac0dd07ce91b671ad2a73d2e1fb76e"
+  integrity sha512-LI2r/flm2pJ2QfKXJ22IHID92F+l0T8XAc3MFh5AZS+JGVqTIC19elzIxnIugCAXl6nkR7pQitwrndZGy4TzEg==
   dependencies:
-    "@vueuse/shared" "4.9.0"
-    vue-demi latest
+    "@vueuse/shared" "4.9.2"
+    vue-demi "*"
 
 "@vueuse/head@^0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@vueuse/head/-/head-0.5.1.tgz#7d8a31ba4d214fff75c1d0845148d7f0bdf5b68f"
   integrity sha512-xt6qgtItb4z/7vp664opQc0c2+ZoU9itMfvpmg4+h0uJcEnhl7LYxO4V+G8H7EVki7SyXDIFMfoCiCFaJrArmg==
 
-"@vueuse/shared@4.9.0":
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-4.9.0.tgz#efc36ed36a6148b794538675309038bdf3df9701"
-  integrity sha512-u5bSe39llw2DjGerZjFK/jv04sF3G1BX5t4aRat1s+9hzm8mEB55uorqA3VxCgTFMNyc0sactZhj6YIzYdG0dg==
+"@vueuse/shared@4.9.2":
+  version "4.9.2"
+  resolved "https://registry.yarnpkg.com/@vueuse/shared/-/shared-4.9.2.tgz#5dc3edec3b334733aed3345be182eebb1ac9f239"
+  integrity sha512-VMIBX7NWfA3Y21OcCXieGEbclhCzYB7a0lDn6tS1eKephH3STAEWYbz+ucxreHI18XQ8Iip8ee7PYHGXNXpg1g==
   dependencies:
-    vue-demi latest
+    vue-demi "*"
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.5"
@@ -4316,10 +4316,10 @@ vite@^2.2.3:
   optionalDependencies:
     fsevents "~2.3.1"
 
-vue-demi@latest:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.7.3.tgz#463188044d31d33985e67da51f315b447a1fed85"
-  integrity sha512-vrzM26H4CZCXBf/eu4T8nks6o7qgziYM52myk8bg+atw4qYqpeWJf5c82W8VdmgGfSIdh9ulOOe9+GeLc3Z/8A==
+vue-demi@*:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.9.0.tgz#b30da61450079d60a132d7aaf9e86d1949e8445e"
+  integrity sha512-f8vVUpC726YXv99fF/3zHaw5CUYbP5H/DVWBN+pncXM8P2Uz88kkffwj9yD7MukuVzPICDHNrgS3VC2ursaP7g==
 
 vue-eslint-parser@^7.0.0, vue-eslint-parser@^7.6.0:
   version "7.6.0"
