@@ -3311,10 +3311,10 @@ picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1, picomatch@^2.2.2:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
 
-pnpm@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-6.2.1.tgz#a4a7512da705720554ab6745c5e477bcd56d094f"
-  integrity sha512-aSrlGL3703pXhMaxFpFLAFakvpla0PaGN2/zOh5oG2qbvJ+jKuGkpHPhpLyAnhs/z+Je3wBaYA7vETu1f1xwqQ==
+pnpm@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-6.3.0.tgz#40912a3dccebff2e12b889cd19292b099d0f7e7e"
+  integrity sha512-mSeVHYbCiPgpQjoib15GzeYae9Ttth1WKuhGe49UwlttYRHYXEsvW+JsEiX4Zm9bltFvSl7dKevCCrm1JJB0qg==
 
 postcss-functions@^3:
   version "3.0.0"
