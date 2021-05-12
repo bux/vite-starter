@@ -44,6 +44,6 @@
         "vite-plugin-vue-layouts": "^0.3.1",
         "vite-ssg": "^0.10.0",
         "vue-eslint-parser": "^7.6.0",
-        "vue-loader": "^15.9.6"
+        "vue-loader": "^15.9.7"
     }
 }
