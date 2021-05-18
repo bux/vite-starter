@@ -18,7 +18,7 @@
         "@iconify/json": "^1.1.342",
         "@intlify/vite-plugin-vue-i18n": "^2.1.2",
         "@types/nprogress": "^0.2.0",
-        "@typescript-eslint/eslint-plugin": "^4.23.0",
+        "@typescript-eslint/eslint-plugin": "^4.24.0",
         "@typescript-eslint/parser": "^4.23.0",
         "@vitejs/plugin-vue": "^1.2.2",
         "@vue/compiler-sfc": "^3.0.11",
