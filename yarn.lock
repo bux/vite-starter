@@ -1679,15 +1679,7 @@ chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
-  integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
-chalk@^4.1.1:
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.1.tgz#c80b3fab28bf6371e6863325eee67e618b77e6ad"
   integrity sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==
@@ -3480,11 +3472,6 @@ prettier@^1.18.2:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
   integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
-prettier@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.1.tgz#795a1a78dd52f073da0cd42b21f9c91381923ff5"
-  integrity sha512-PqyhM2yCjg/oKkFPtTGUojv7gnZAoG80ttl45O6x2Ug/rMJw4wcc9k6aaf2hibP7BGVCCM33gZoGjyvt9mm16Q==
-
 prettier@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.3.0.tgz#b6a5bf1284026ae640f17f7ff5658a7567fc0d18"
@@ -4310,16 +4297,16 @@ vite-plugin-vue-layouts@^0.3.1:
     vue "^3.0.11"
     vue-router "^4.0.6"
 
-vite-ssg@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/vite-ssg/-/vite-ssg-0.10.0.tgz#7d98bec9dda66b7bad3d0601ac570f0c9c72f572"
-  integrity sha512-8QWEwkzX5Q9o2FVKzJ1tMQqphCYztUdkvQjNiXW6dxePwLPfBPoU7y3rE/1v/w02p/sJU0hrkn8q9OztwkqAkA==
+vite-ssg@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/vite-ssg/-/vite-ssg-0.11.0.tgz#2fd62641788fd55c09de35c2830bc919c453e808"
+  integrity sha512-wfkIjT3w8B/gjzcO76H4ztWTw0rkQYIO2TVb1xk0SBptxuQuxbUrPbjjyzMkCHPCzD4bt1DliAlWLms63PqpMw==
   dependencies:
     chalk "^4.1.1"
     fs-extra "^10.0.0"
     html-minifier "^4.0.0"
     jsdom "^16.5.3"
-    prettier "^2.2.1"
+    prettier "^2.3.0"
     yargs "^17.0.1"
 
 vite@^2.3.2:
@@ -4377,17 +4364,17 @@ vue-loader@^15.9.7:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-router@4:
+vue-router@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.6.tgz#91750db507d26642f225b0ec6064568e5fe448d6"
+  integrity sha512-Y04llmK2PyaESj+N33VxLjGCUDuv9t4q2OpItEGU7POZiuQZaugV6cJpE6Qm1sVFtxufodLKN2y2dQl9nk0Reg==
+
+vue-router@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.8.tgz#55d4290a3122444edbc91a3cd2492bb1d0cef494"
   integrity sha512-42mWSQaH7CCBQDspQTHv63f34VEnZC20g9QNK4WJ/zW8SdIUeT6TQ2i/78fjF/pVBUPLBWrGhvB7uDnaz7O/pA==
   dependencies:
     "@vue/devtools-api" "^6.0.0-beta.10"
-
-vue-router@^4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.6.tgz#91750db507d26642f225b0ec6064568e5fe448d6"
-  integrity sha512-Y04llmK2PyaESj+N33VxLjGCUDuv9t4q2OpItEGU7POZiuQZaugV6cJpE6Qm1sVFtxufodLKN2y2dQl9nk0Reg==
 
 vue-style-loader@^4.1.0:
   version "4.1.3"
