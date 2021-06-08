@@ -901,10 +901,10 @@
   resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.353.tgz#f9fb632da9b13cd79bcbea09b289610c46b87426"
   integrity sha512-gN+DccJUhO6iB7gBPbZXodDaaxZpZTLORixrXaXNmkSW7N/jqfzMCCogoeRWOydZzSgR7VESc2tMI4llEonkjg==
 
-"@intlify/cli@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@intlify/cli/-/cli-0.4.0.tgz#4370ddab24a295c89925f3abd447bbeda09bb0e7"
-  integrity sha512-kJxJaLb2DgOmaqQxy26Ick1GTBLFrO8CEdbmtDiOeO82JR2dmyDvCOz2iLP9zELzl0WHTJ958IMHbSC5c6xN2g==
+"@intlify/cli@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@intlify/cli/-/cli-0.5.0.tgz#230b3c8c470c7a305a27bbc58782ce62ba3cc34a"
+  integrity sha512-FKPL2Avs+X7+Poer+XHbXBMNYVdFCYvTpuMr8OqnCkHlLtKgCrskeUzLyryelT4G8JG9ZZXOE9AZkiqo/AWYyg==
   dependencies:
     "@intlify/core" "^9.1.0"
     "@intlify/core-base" "^9.1.0"
@@ -1009,25 +1009,25 @@
     "@intlify/message-resolver" "9.1.6"
     "@intlify/shared" "9.1.6"
 
-"@intlify/shared@9.1.2", "@intlify/shared@^9.1.0":
+"@intlify/shared@9.1.2":
   version "9.1.2"
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.1.2.tgz#5229cf813aeee9bc4fcc88c95485d99e8cf58ad1"
   integrity sha512-95v9lPxh6k3/lE0urU/wdAck7dXQ/O0Pk7WwZPOIXqPFVN88ZwRsmlFr7iwtIIsr4aYgYJh8I2Pp2BzCNAFYmw==
 
-"@intlify/shared@9.1.6":
+"@intlify/shared@9.1.6", "@intlify/shared@^9.1.0", "@intlify/shared@^9.1.6":
   version "9.1.6"
   resolved "https://registry.yarnpkg.com/@intlify/shared/-/shared-9.1.6.tgz#d03c9301898d6ddffe2a54c03e7664174fbcdfd9"
   integrity sha512-6MtsKulyfZxdD7OuxjaODjj8QWoHCnLFAk4wkWiHqBCa6UCTC0qXjtEeZ1MxpQihvFmmJZauBUu25EvtngW5qQ==
 
-"@intlify/vite-plugin-vue-i18n@^2.1.2":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-2.1.2.tgz#afc794952d1beb83834ffbf5a1651de019f32aee"
-  integrity sha512-LMqRraO9+z7pyFwlc1I2ec0PrfNzXUz7Ap61Ebu1IHJMnIqjT6o2U6z67Nb9j+9KLHx4yqGKx12VDaG0AIUNNA==
+"@intlify/vite-plugin-vue-i18n@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@intlify/vite-plugin-vue-i18n/-/vite-plugin-vue-i18n-2.2.1.tgz#0b8853107e056dbaad7580bec0683e9c77e5c28a"
+  integrity sha512-TUmuXhj2VIyyRzGhY9OtiXXEqaibtfV61oj0RDHbvpURd7B3Fukw/X7kzorz/dtSzo3DWNTcUgBElJrzeuGJGA==
   dependencies:
-    "@intlify/cli" "^0.4.0"
-    "@intlify/shared" "^9.1.0"
+    "@intlify/cli" "^0.5.0"
+    "@intlify/shared" "^9.1.6"
     "@rollup/pluginutils" "^4.1.0"
-    debug "^4.1.1"
+    debug "^4.3.1"
     fast-glob "^3.2.5"
 
 "@intlify/vue-devtools@9.1.2":
