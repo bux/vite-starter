@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@antfu/utils@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@antfu/utils/-/utils-0.2.4.tgz#c7d33fc6faa0d3a6fcc2555673f5e9b19c0fbc15"
+  integrity sha512-2bZNkVfL9IZESmvE26UKi8SzyvSoaIsGXDcnbHFMtmGMqUiB1fXpAJ1ijGf+tSqKRQ5yagck2U1Qk0p+705/kw==
+  dependencies:
+    "@types/throttle-debounce" "^2.1.0"
+
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -1180,6 +1187,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/throttle-debounce@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/throttle-debounce/-/throttle-debounce-2.1.0.tgz#1c3df624bfc4b62f992d3012b84c56d41eab3776"
+  integrity sha512-5eQEtSCoESnh2FsiLTxE121IiE60hnMqcb435fShf4bpLRjEu1Eoekht23y6zXS9Ts3l+Szu3TARnTsA0GkOkQ==
+
 "@typescript-eslint/eslint-plugin@^4.27.0":
   version "4.27.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.27.0.tgz#0b7fc974e8bc9b2b5eb98ed51427b0be529b4ad0"
@@ -2003,14 +2015,7 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-debug@4:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
-  integrity sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
-  dependencies:
-    ms "2.1.2"
-
-debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2:
+debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
   integrity sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==
@@ -4273,11 +4278,12 @@ vite-plugin-icons@^0.6.3:
     "@iconify/json-tools" "^1.0.10"
     vue-template-es2015-compiler "^1.9.1"
 
-vite-plugin-pages@^0.13.2:
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.13.2.tgz#96a1915572a361d1ac72b971d6a70980ad4abb59"
-  integrity sha512-29UqxaahZu8RNCfCmoJJBL5nSx5iYoI+yesjyEqtqeqiUFJh8Z/cHeFCj9m66gmCDTQoaXCI+impvoSeS56usw==
+vite-plugin-pages@^0.14.3:
+  version "0.14.3"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.14.3.tgz#7ed8c1b453b45bb0b119f1c11cd17955826e3bc9"
+  integrity sha512-/jnfzpf+MRl+BH1opMIVNlIW5mcXVmlJVWRFVhFGjGRbYQEV2Z8sU5DiPXlYc/3YTXlBeJjKsCMbN365S9TmjA==
   dependencies:
+    "@antfu/utils" "^0.2.4"
     debug "^4.3.2"
     deep-equal "^2.0.5"
     fast-glob "^3.2.5"
