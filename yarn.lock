@@ -3434,10 +3434,10 @@ picomatch@^2.2.3:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
 
-pnpm@^6.9.1:
-  version "6.9.1"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-6.9.1.tgz#6421f7d9bcab035037e25e932b27740fc56a6451"
-  integrity sha512-2qlbvmHB+ULAoTCMpJ75oADYoVQnsxD1ipCemdDJA2KW4auGwoTUzyowVYEiAe4DIDOqw3axhHVkNAo7P6goZA==
+pnpm@^6.10.3:
+  version "6.10.3"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-6.10.3.tgz#76b8372cb629138d59824d393a7bcb4819916c12"
+  integrity sha512-GdxerBN3hhe9x9W0mAMmiWoDELy7KekrmHbYdo7WeHC1MthP/gI7MGVYIgcKj9Vy4zWLO9v1hVYOgKUrewkDVg==
 
 postcss-js@^3.0.3:
   version "3.0.3"
