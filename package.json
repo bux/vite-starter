@@ -15,7 +15,7 @@
         "vue-router": "^4.0.10"
     },
     "devDependencies": {
-        "@iconify/json": "^1.1.371",
+        "@iconify/json": "^1.1.378",
         "@intlify/vite-plugin-vue-i18n": "^2.3.1",
         "@types/nprogress": "^0.2.0",
         "@typescript-eslint/eslint-plugin": "^4.28.2",
