@@ -1,13 +1,26 @@
+<script setup lang="ts">
+import { useI18n } from "vue-i18n"
+import { isDark, toggleDark } from "~/logics"
+
+const { t, availableLocales, locale } = useI18n()
+
+const toggleLocales = () => {
+    // change to some real logic
+    const locales = availableLocales
+    locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
+}
+</script>
+
 <template>
     <nav class="text-xl mt-6">
         <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
             <carbon-campsite />
         </router-link>
 
-        <a class="icon-btn mx-2" :title="t('button.toggle_dark')" @click="toggleDark">
+        <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark">
             <carbon-moon v-if="isDark" />
             <carbon-sun v-else />
-        </a>
+        </button>
 
         <a class="icon-btn mx-2" :title="t('button.toggle_langs')" @click="toggleLocales">
             <carbon-language />
@@ -28,28 +41,3 @@
         </a>
     </nav>
 </template>
-
-<script lang="ts">
-import { defineComponent } from "vue"
-import { useI18n } from "vue-i18n"
-import { isDark, toggleDark } from "~/logics"
-
-export default defineComponent({
-    setup() {
-        const { t, availableLocales, locale } = useI18n()
-
-        const toggleLocales = () => {
-            // change to some real logic
-            const locales = availableLocales
-            locale.value = locales[(locales.indexOf(locale.value) + 1) % locales.length]
-        }
-        return {
-            toggleDark,
-            isDark,
-            t,
-            locale,
-            toggleLocales,
-        }
-    },
-})
-</script>

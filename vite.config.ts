@@ -7,7 +7,7 @@ import ViteIcons, { ViteIconsResolver } from "vite-plugin-icons"
 import ViteComponents from "vite-plugin-components"
 
 import Layouts from "vite-plugin-vue-layouts"
-
+import WindiCSS from "vite-plugin-windicss"
 import { VitePWA } from "vite-plugin-pwa"
 
 import VueI18n from "@intlify/vite-plugin-vue-i18n"
@@ -34,6 +34,9 @@ export default defineConfig({
         ViteComponents({
             extensions: ["vue"],
 
+            // generate `components.d.ts` for ts support with Volar
+            globalComponentsDeclaration: true,
+
             // auto import icons
             customComponentResolvers: [
                 // https://github.com/antfu/vite-plugin-icons
@@ -47,9 +50,12 @@ export default defineConfig({
         // https://github.com/antfu/vite-plugin-icons
         ViteIcons(),
 
+        WindiCSS(),
+
         // https://github.com/antfu/vite-plugin-pwa
         VitePWA({
-	    registerType: "autoUpdate",
+            registerType: "autoUpdate",
+            includeAssets: ["favicon.svg", "robots.txt", "safari-pinned-tab.svg"],
             manifest: {
                 name: "Vitesse",
                 short_name: "Vitesse",
@@ -77,9 +83,17 @@ export default defineConfig({
 
         // https://github.com/intlify/vite-plugin-vue-i18n
         VueI18n({
+            runtimeOnly: true,
+            compositionOnly: true,
             include: [path.resolve(__dirname, "locales/**")],
         }),
     ],
+
+    server: {
+        fs: {
+            strict: true,
+        },
+    },
 
     // https://github.com/antfu/vite-ssg
     ssgOptions: {
