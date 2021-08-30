@@ -3969,10 +3969,10 @@ pinia@^2.0.0-0:
     "@vue/devtools-api" "^6.0.0-beta.15"
     vue-demi "*"
 
-pnpm@^6.14.2:
-  version "6.14.2"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-6.14.2.tgz#5405324822c12bc3f59e01420dc207ad73e17905"
-  integrity sha512-//XNynSNTgx9al/Z+idIhW65vVCV+kAckCEK8K48D1UgUozveZUDznejkGU6hOcqUMsXg5konDruwpzl1NVI2Q==
+pnpm@^6.14.5:
+  version "6.14.5"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-6.14.5.tgz#fc5ba22e179ea6d6f63a22f44afe5ae873f84f40"
+  integrity sha512-+N1B+Bj2JKZJ1GDJS141OgnDmwxAavHi/ecU3IIl0QunPSVBXxd51DbVizCw/mPwIB3UmeT474Fyz8o3Xj9sXA==
 
 postcss-modules-extract-imports@^3.0.0:
   version "3.0.0"
