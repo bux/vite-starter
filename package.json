@@ -47,7 +47,7 @@
         "vite-plugin-windicss": "^1.4.1",
         "vite-ssg": "^0.15.1",
         "unplugin-icons": "^0.7.0",
-        "unplugin-vue-components": "^0.14.0",
+        "unplugin-vue-components": "^0.15.0",
         "vue-eslint-parser": "^7.11.0",
         "vue-loader": "^15.9.8",
         "vue-tsc": "^0.3.0"

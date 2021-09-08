@@ -1820,7 +1820,7 @@ character-parser@^2.2.0:
   dependencies:
     is-regex "^1.0.3"
 
-chokidar@^3.5.1:
+chokidar@^3.5.1, chokidar@^3.5.2:
   version "3.5.2"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.2.tgz#dba3976fcadb016f66fd365021d91600d01c1e75"
   integrity sha512-ekGhOnNVPgT77r4K/U3GDhu+FQ2S8TnK/s2KbIGXi0SZWuwkZ2QNyfWdZW+TVfn84DpEP7rLeCt2UI6bJ8GwbQ==
@@ -5025,17 +5025,6 @@ unpipe@1.0.0, unpipe@~1.0.0:
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
-unplugin-auto-import@^0.4.1:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/unplugin-auto-import/-/unplugin-auto-import-0.4.2.tgz#1ca947236a8ffceaa33093b49f50a0738835c9be"
-  integrity sha512-r7FgQ9o3Wy5jBU7PHcO5tZrFJkpKl+Yz/XCsXxk5LHXgvysTVdGQSnmPQ/hWDBuEx2IQpN7pX8lgkh2dnM+m0w==
-  dependencies:
-    "@antfu/utils" "^0.3.0"
-    "@rollup/pluginutils" "^4.1.1"
-    has-pkg "^0.0.1"
-    magic-string "^0.25.7"
-    unplugin "^0.2.7"
-
 unplugin-icons@^0.7.0:
   version "0.7.6"
   resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.7.6.tgz#08b61cf9bda2989c8a7dc6d4ea8052b65bb090a0"
@@ -5045,12 +5034,13 @@ unplugin-icons@^0.7.0:
     has-pkg "^0.0.1"
     unplugin "^0.2.3"
 
-unplugin-vue-components@^0.14.0:
-  version "0.14.12"
-  resolved "https://registry.yarnpkg.com/unplugin-vue-components/-/unplugin-vue-components-0.14.12.tgz#f8935c591830f7f821c35a3335577272a8df3829"
-  integrity sha512-LpzQA0ZJwBTCszfr+A2PUYaHfYjRR+m2F2wdoLe405ucGlx0wGR9H2OTOmhLKy0UhK15bkCDfDrR97fmfQPWsw==
+unplugin-vue-components@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/unplugin-vue-components/-/unplugin-vue-components-0.15.0.tgz#5f124d70f166f8ace05ad9ce9230a84e8b306ac5"
+  integrity sha512-qnK2OmhbE02ZlfvN6m8vYwvVGoWMf0m2d85wCbQKXJeDJ1XdKrnGs3Lyq4VrO7n8zpX34hOkZWHdXBOWkElEDw==
   dependencies:
     "@rollup/pluginutils" "^4.1.1"
+    chokidar "^3.5.2"
     debug "^4.3.2"
     fast-glob "^3.2.7"
     has-pkg "^0.0.1"
