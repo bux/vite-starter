@@ -6,7 +6,7 @@
         "serve": "vite preview"
     },
     "dependencies": {
-        "@vueuse/core": "^6.2.1",
+        "@vueuse/core": "^6.3.2",
         "@vueuse/head": "^0.6.0",
         "nprogress": "^0.2.0",
         "pinia": "^2.0.0-0",
