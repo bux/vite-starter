@@ -5034,14 +5034,14 @@ unpipe@1.0.0, unpipe@~1.0.0:
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
   integrity sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
 
-unplugin-icons@^0.7.0:
-  version "0.7.6"
-  resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.7.6.tgz#08b61cf9bda2989c8a7dc6d4ea8052b65bb090a0"
-  integrity sha512-P9Uvto2ImdIYovkk13YBkr/o5GRyYsjaVerrcP2AnAewqxcEh20IB71ZkTWog9ywTnGgv0sfeIlOQplbbaCzbw==
+unplugin-icons@^0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/unplugin-icons/-/unplugin-icons-0.8.1.tgz#0b0e0fe4229b95f207920dec230807d874cf60ed"
+  integrity sha512-/loYUI0Z4PW0PeRorCOI8x91mhzfkpyhQp9i8QnTuxX9flyC+gR26doqEeNa3UWsDSN7MB2duLK3vSPr81PciQ==
   dependencies:
     "@iconify/json-tools" "^1.0.10"
     has-pkg "^0.0.1"
-    unplugin "^0.2.3"
+    unplugin "^0.2.8"
 
 unplugin-vue-components@^0.15.0:
   version "0.15.0"
@@ -5058,10 +5058,10 @@ unplugin-vue-components@^0.15.0:
     resolve "^1.20.0"
     unplugin "^0.2.7"
 
-unplugin@^0.2.3, unplugin@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.2.7.tgz#40072145287943abbc552185ee7df1525932133d"
-  integrity sha512-KcMTl+aF+UhNOUvUdxwxHiOhvIoFe++foE2GgblFmXsnjdRYYggd2Tg7wopljCnOyiv5IspQRKfAvpyc4qtzuw==
+unplugin@^0.2.7, unplugin@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/unplugin/-/unplugin-0.2.8.tgz#b1bc87f19c937e1c7971bed93d9bdcacf8cfcfe5"
+  integrity sha512-6QsdpTNteT5lZO3tGcCwkXWzieXuM0uA0n5rpT8j+/K6BNRlHyQcQ2hpA6KLWR6hlzmXsas/ZCaGhOiiOMAGYg==
   dependencies:
     upath "^2.0.1"
     webpack-virtual-modules "^0.4.3"
