@@ -951,10 +951,10 @@
   resolved "https://registry.yarnpkg.com/@iconify/json-tools/-/json-tools-1.0.10.tgz#d9a7050dbbe8bb29d684d4b3f9446ed2d0bea3cc"
   integrity sha512-LFelJDOLZ6JHlmlAkgrvmcu4hpNPB91KYcr4f60D/exzU1eNOb4/KCVHIydGHIQFaOacIOD+Xy+B7P1z812cZg==
 
-"@iconify/json@^1.1.400":
-  version "1.1.400"
-  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.400.tgz#6656603203b1a389250c7dfdebe06b2fdf8b1b01"
-  integrity sha512-O6roK4lDFtaxKsqeul1iBFc92kiBxfpPQjRkgLFI+EshvQuNx3e8iUDnfqe0Fu7GWaFT2TeERBkrF76pjYy+nw==
+"@iconify/json@^1.1.401":
+  version "1.1.401"
+  resolved "https://registry.yarnpkg.com/@iconify/json/-/json-1.1.401.tgz#bc1eeef1fb7f59eac7c0d220139d995b6035036b"
+  integrity sha512-h2Ia0ode2yhft4/I//HAuuhZEiQr9JgEBqOTlE2U2hFoeZXx6sCJLu561GEomK4gKuZ5I0tHWJYTBfF0+Kcz4w==
 
 "@intlify/bundle-utils@^0.2.0":
   version "0.2.0"
